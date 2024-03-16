@@ -27,7 +27,7 @@ const FlightSearch = () => {
                     یک طرفه
                 </Button>
             </div>
-            <div className='flex items-center gap-6 w-full'>
+            {/* <div className='flex items-center gap-6 w-full'>
                 <div className='flex items-center gap-1'>
                     <FlightOptionsInput placeHolder='مبدا' />
                     <Image src={ICONS.arrow2} alt='' width={16} height={16} />
@@ -48,7 +48,7 @@ const FlightSearch = () => {
                         <span>جستجو</span>
                     </Button>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

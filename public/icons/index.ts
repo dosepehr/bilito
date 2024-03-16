@@ -7,6 +7,8 @@ const ICONS = {
     airplane: new URL('./airplane.svg', import.meta.url).href,
     arrow2: new URL('./arrow-2.svg', import.meta.url).href,
     search: new URL('./search.svg', import.meta.url).href,
+    history: new URL('./history.svg', import.meta.url).href,
+    closeSquare: new URL('./closeSquare.svg', import.meta.url).href,
 };
 
 export default ICONS;
