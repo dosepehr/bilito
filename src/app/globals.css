@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/*! fonts  */
+@font-face {
+  font-family: 'ISBold';
+  src: url('/fonts/iransans/IRANSans-Bold.woff2') format('woff2');
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'IS';
+  src: url('/fonts/iransans/IRANSans.woff2') format('woff2');
+  font-display: swap;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'ISBlack';
+  src: url('/fonts/iransans/IRANSans-Black.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ISLight';
+  src: url('/fonts/iransans/IRANSans-Light.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ISMedium';
+  src: url('/fonts/iransans/IRANSans-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ISUltraLight';
+  src: url('/fonts/iransans/IRANSans-UltraLight.woff2') format('woff2');
+  font-display: swap;
+}
+
+/*! global styles */
+
+* {
+  font-family: 'IS';
 }
