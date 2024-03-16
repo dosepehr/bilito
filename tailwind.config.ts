@@ -19,10 +19,16 @@ const config: Config = {
                     primary: '#1D91CC',
                 },
                 gray: {
+                    3: '#DFDFDF',
+                    5: '#ADADAD',
                     7: '#606060',
+                    8: '#404040',
                 },
                 tint: {
                     1: '#E8F4FA',
+                },
+                shade: {
+                    3: '#11577A',
                 },
             },
             fontFamily: {
