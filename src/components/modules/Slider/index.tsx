@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 type Breakpoints = {
     [key: number]: {
         slidesPerView: number;
-        spaceBetween: number;
+        spaceBetween?: number;
     };
 };
 type SliderProps = {
@@ -29,11 +29,18 @@ const Slider: FC<PropsWithChildren<SliderProps>> = ({
         <section>
             <div>
                 <Swiper
-                    navigation
+                    // navigation
                     dir='rtl'
                     modules={[Navigation]}
-                    breakPoints={breakPoints}
+                    slidesPerView={6}
+                    breakpoints={breakPoints}
                 >
+                    <SwiperSlide>{children}</SwiperSlide>
+                    <SwiperSlide>{children}</SwiperSlide>
+                    <SwiperSlide>{children}</SwiperSlide>
+                    <SwiperSlide>{children}</SwiperSlide>
+                    <SwiperSlide>{children}</SwiperSlide>
+                    <SwiperSlide>{children}</SwiperSlide>
                     <SwiperSlide>{children}</SwiperSlide>
                 </Swiper>
             </div>

@@ -15,9 +15,23 @@ const SearchHistory = () => {
             </div>
             <Slider
                 breakPoints={{
-                    768: {
-                        spaceBetween: 5,
+                    0: {
+                        slidesPerView: 1,
+                    },
+                    400: {
                         slidesPerView: 2,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    },
+                    1000: {
+                        slidesPerView: 4,
+                    },
+                    1100: {
+                        slidesPerView: 5,
+                    },
+                    1300: {
+                        slidesPerView: 6,
                     },
                 }}
             >
