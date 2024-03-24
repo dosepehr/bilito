@@ -3,9 +3,6 @@ import { FC, PropsWithChildren } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 type Breakpoints = {
     [key: number]: {
         slidesPerView: number;
@@ -29,7 +26,6 @@ const Slider: FC<PropsWithChildren<SliderProps>> = ({
         <section>
             <div>
                 <Swiper
-                    // navigation
                     dir='rtl'
                     modules={[Navigation]}
                     slidesPerView={6}
