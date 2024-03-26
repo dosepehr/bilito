@@ -3,6 +3,7 @@ import Hero from '@/components/modules/Hero/Hero';
 import SearchHistory from '@/components/modules/SearchHistory/SearchHistory';
 import BestOffers from '@/components/templates/index/BestOffers/BestOffers';
 import PapularOffers from '@/components/templates/index/PapularOffers';
+import Services from '@/components/templates/index/Services';
 import React from 'react';
 
 const page = () => {
@@ -13,8 +14,9 @@ const page = () => {
                 <FlightSearch />
                 <SearchHistory />
                 <BestOffers />
-                <PapularOffers/>
+                {/* <PapularOffers /> */}
             </div>
+            <Services />
         </>
     );
 };
