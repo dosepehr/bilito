@@ -9,6 +9,7 @@ const ICONS = {
     search: new URL('./search.svg', import.meta.url).href,
     history: new URL('./history.svg', import.meta.url).href,
     closeSquare: new URL('./closeSquare.svg', import.meta.url).href,
+    boldAirplane: new URL('./boldAirplane.svg', import.meta.url).href,
 };
 
 export default ICONS;
