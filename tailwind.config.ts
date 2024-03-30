@@ -19,6 +19,7 @@ const config: Config = {
                     primary: '#1D91CC',
                 },
                 gray: {
+                    1: '#F9F9F9',
                     3: '#DFDFDF',
                     5: '#ADADAD',
                     7: '#606060',
@@ -28,7 +29,8 @@ const config: Config = {
                     1: '#E8F4FA',
                 },
                 shade: {
-                    3: '#11577A',
+                    2: '#11577A',
+                    3: '#0C3A52',
                 },
             },
             fontFamily: {

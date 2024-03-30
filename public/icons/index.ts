@@ -10,6 +10,19 @@ const ICONS = {
     history: new URL('./history.svg', import.meta.url).href,
     closeSquare: new URL('./closeSquare.svg', import.meta.url).href,
     boldAirplane: new URL('./boldAirplane.svg', import.meta.url).href,
+    apple: new URL('./apple.svg', import.meta.url).href,
+    googlePlay: new URL('./google-play.svg', import.meta.url).href,
+    facebook: new URL('./facebook.svg', import.meta.url).href,
+    instagram: new URL('./instagram.svg', import.meta.url).href,
+    linkedin: new URL('./linkedin.svg', import.meta.url).href,
+    telegram: new URL('./telegram.svg', import.meta.url).href,
+    youtube: new URL('./youtube.svg', import.meta.url).href,
+    twitter: new URL('./twitter.svg', import.meta.url).href,
+    aira: new URL('./aira.svg', import.meta.url).href,
+    cao: new URL('./cao.svg', import.meta.url).href,
+    enamad: new URL('./enamad.svg', import.meta.url).href,
+    EP: new URL('./EP.svg', import.meta.url).href,
+    travellerRights: new URL('./travellerRights.svg', import.meta.url).href,
 };
 
 export default ICONS;

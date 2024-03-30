@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Header from '@/components/modules/Header/Header';
+import Footer from '@/components/modules/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
             <body className={`${inter.className}`}>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );
