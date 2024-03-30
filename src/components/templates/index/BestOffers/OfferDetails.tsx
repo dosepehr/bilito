@@ -1,4 +1,4 @@
-import Button from '@/components/modules/Button/Button';
+import Button from '@/components/modules/Button';
 import React, { FC } from 'react';
 
 type OfferDetailsProps = {

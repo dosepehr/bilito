@@ -3,7 +3,7 @@ import ICONS from '../../../../public/icons';
 import IMAGES from '../../../../public/images';
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from '../Button/Button';
+import Button from '../Button';
 
 type SidebarProps = {
     isOpen: boolean;

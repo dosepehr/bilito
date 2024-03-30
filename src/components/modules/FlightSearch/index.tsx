@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import ICONS from '../../../../public/icons';
-import Button from '../Button/Button';
+import Button from '../Button';
 import FlightOptionsInput from './components/FlightOptionsInput';
 const FlightSearch = () => {
     return (
