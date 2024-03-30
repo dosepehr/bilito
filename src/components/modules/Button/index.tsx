@@ -16,7 +16,7 @@ const Button: FC<PropsWithChildren<ButtonProps>> = ({
     const styles: { primary: string; secondary: string; transparent: string } =
         {
             primary:
-                "rounded-lg text-white py-2 px-4 bg-blue-primary flex items-center",
+                'rounded-lg text-white py-2 px-4 bg-blue-primary flex items-center',
             secondary:
                 'bg-white border-2 border-shade-3 text-shade-3 rounded-lg py-2 px-4 flex items-center',
             transparent:
