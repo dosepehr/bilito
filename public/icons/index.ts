@@ -35,6 +35,11 @@ const ICONS = {
     dental: new URL('./dental.svg', import.meta.url).href,
     medical: new URL('./medical.svg', import.meta.url).href,
     pharmacySquare: new URL('./pharmacySquare.svg', import.meta.url).href,
+    cardPos: new URL('./card-pos.svg', import.meta.url).href,
+    note: new URL('./note.svg', import.meta.url).href,
+    searchNormal: new URL('./search-normal.svg', import.meta.url).href,
+    tickSquare: new URL('./tick-square.svg', import.meta.url).href,
+    ticket: new URL('./ticket.svg', import.meta.url).href,
 };
 
 export default ICONS;
