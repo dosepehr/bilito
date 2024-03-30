@@ -23,6 +23,14 @@ const ICONS = {
     enamad: new URL('./enamad.svg', import.meta.url).href,
     EP: new URL('./EP.svg', import.meta.url).href,
     travellerRights: new URL('./travellerRights.svg', import.meta.url).href,
+    blackClose: new URL('./blackClose.svg', import.meta.url).href,
+    airplane2: new URL('./airplane2.svg', import.meta.url).href,
+    blackClose: new URL('./blackClose.svg', import.meta.url).href,
+    call2: new URL('./call2.svg', import.meta.url).href,
+    frame: new URL('./frame.svg', import.meta.url).href,
+    home: new URL('./home.svg', import.meta.url).href,
+    receipt: new URL('./receipt.svg', import.meta.url).href,
+    userSearch: new URL('./user-search.svg', import.meta.url).href,
 };
 
 export default ICONS;
